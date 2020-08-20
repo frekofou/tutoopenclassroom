@@ -1,4 +1,5 @@
 // App.js
+// fichier intial de l'application
 
 import React from 'react'
 import Search from './Components/Search'
