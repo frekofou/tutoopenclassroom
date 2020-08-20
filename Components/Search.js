@@ -24,7 +24,7 @@ class Search extends React.Component {
     }
 
     _searchTextInputChanged(text) {
-        this.searchedText = text // Modification du texte recherché à chaque saisie de texte, sans passer par le setState comme avant
+        this.searchedText = text 
     }
 
     render() {
