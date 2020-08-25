@@ -19,8 +19,7 @@ class Search extends React.Component {
         if (this.searchedText.length > 0) { // Seulement si le texte recherché n'est pas vide
             getFilmsFromApiWithSearchedText(this.searchedText).then(data => {
                 this.setState({ films: data.results })
-            })
-        }
+        })}
     }
 
     _searchTextInputChanged(text) {
